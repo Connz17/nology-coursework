@@ -1,5 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;500&family=Mouse+Memoirs&family=Nunito:wght@700&display=swap');
+
+$font-logo: 'Nunito', sans-serif;
+$font-title: 'Mouse Memoirs', sans-serif;
+$font-body: 'IBM Plex Sans', sans-serif;
+
+
+$color-primary: rgb(61, 112, 198);
+$color-secondary: purple;
+$color-white: white;
+$color-footer: rgba(255, 248, 53, 0.745);
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-primary;
+
 }
+
+
+
+
